@@ -99,7 +99,6 @@ function escribirTextoErrado(letras,x,y) {
       var Codigo = Event.keyCode
       letra =letra.toUpperCase();
       console.log(letra);
-      console.log(Codigo);
       for (let i =0;i<=palabraRandom.length-1;i++) {
         if (letra==letrasAcertadas[i]) {
           alert('usted ya ingreso esta palabra');
